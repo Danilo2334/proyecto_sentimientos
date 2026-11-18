@@ -1,0 +1,46 @@
+{
+  "modelo_recomendado.joblib": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/modelo_recomendado.joblib",
+    "sha256": "71ecfd6068ecd81128d7fc057e1230c7cfafa3d76ec5a26fb395e9842676a6d0"
+  },
+  "seleccion_modelo.json": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/seleccion_modelo.json",
+    "sha256": "db862b0f372116de8a3178f8b2b45d2f85b0d5aff0259a2695658cf82396f5e4"
+  },
+  "comparacion_final.csv": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/comparacion_final.csv",
+    "sha256": "a1eda266c0283725c89eb1757e2363de7ac55ddb69c6e35084902a83a9a91ab1"
+  },
+  "matriz_V2.csv": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/matriz_V2.csv",
+    "sha256": "ae261c97fcf4e75092ad8c3df390490c5886f4f5b75b723e13a6ab274e708c1e"
+  },
+  "matriz_V3.csv": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/matriz_V3.csv",
+    "sha256": "d036273ea97c29ffdb98ddef84d6481d76dcdb29db462e07d777af7854b533f4"
+  },
+  "resumen_final.json": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/comparacion_final_V2_V3/resumen_final.json",
+    "sha256": "ef9e3691c10ca57c260f1b671288e3c516846cc26cbd768aadd66e543c833d98"
+  },
+  "comparacion_inicial.csv": {
+    "origen": "salidas/resultados/comparacion_final.csv",
+    "sha256": "8947d3aaac2bcd6fff1a5106c921b25c919b295be2f103c69f52988b3585ca85"
+  },
+  "matriz_inicial_nb.csv": {
+    "origen": "salidas/resultados/matriz_prueba_naive_bayes.csv",
+    "sha256": "1cd968f3573d84e9cbcb218a40de9faf9f26e047ce2416b12c727d8bde5e1286"
+  },
+  "matriz_inicial_rf.csv": {
+    "origen": "salidas/resultados/matriz_prueba_random_forest.csv",
+    "sha256": "551ec86c09407a0a0ecac29edafb44e4d9155f7f492a7b5b2598215354c17038"
+  },
+  "configuracion_candidata.json": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/configuracion_candidata.json",
+    "sha256": "c4d6dacd0761e09bc75090581c96f0b3522dff2144f2a489eae69808a6e4af0f"
+  },
+  "configuracion_experimento.json": {
+    "origen": "salidas_v3/busqueda_combinada_20261115_024536_bb2de0/configuracion_experimento.json",
+    "sha256": "afb49992f3d7b02f511d9679fe680f8704946e4eac585051bd69693ca2160dd1"
+  }
+}

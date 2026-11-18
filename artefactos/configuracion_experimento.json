@@ -1,0 +1,82 @@
+{
+  "fecha_UTC": "2026-11-15T07:45:36.020042+00:00",
+  "rejilla_TFIDF": {
+    "max_features": [
+      40000,
+      60000,
+      80000
+    ],
+    "min_df": [
+      2,
+      5
+    ],
+    "ngram_range": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "alphas": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "entrenamiento": 600000,
+  "validacion": 15000,
+  "etiquetas": {
+    "0": "Negativo",
+    "4": "Positivo"
+  },
+  "criterio": "F1 macro estrictamente mayor que V2, sin reducir Accuracy",
+  "python": "3.12.10",
+  "scikit_learn": "1.9.1",
+  "pandas": "3.1.1",
+  "numpy": "2.5.4",
+  "rutas": {
+    "entrenamiento": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas_v2\\experimento_D_ampliacion\\entrenamiento_600000\\datos_entrenamiento.csv",
+    "validacion": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas\\particiones\\validacion.csv",
+    "tfidf_V2": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas_v2\\experimento_D_ampliacion\\tfidf_fijo.joblib",
+    "modelo_V2": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas_v2\\experimento_D_ampliacion\\entrenamiento_600000\\naive_bayes.joblib",
+    "prueba_original": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas\\particiones\\prueba.csv",
+    "prueba_comun": "C:\\Users\\Danilo Carlosama\\Music\\proyecto_sentimientos\\salidas_v2\\experimento_C_datos\\prueba_nueva_reservada.csv"
+  },
+  "sha256_entradas": {
+    "entrenamiento": "6b3209ddb27a18629d6abd2c6961cad41274967e0b3a43cb49fd802e94c46202",
+    "validacion": "5c30ace8f06841dd5b3a2dda611f1b2618aebf245e181117a7cf46c9530306f3",
+    "tfidf_V2": "2d5d90e88ab3abf15ad7c814f9e277335b1dd22d6ae708b6f75a702cd24d0fd0",
+    "modelo_V2": "9fcd4e573c02f2f008927f8060ad860b7e900182e66760a6ef8bcfbbdef24385",
+    "prueba_original": "530eff00575ee586f0e29d88ca3d39983a3578baad316a9673752cc66eea5ca3",
+    "prueba_comun": "ddadb1a625ddb808fd0f6ada4fa9294abfc5e3185d2660327c68eeb6a29fa599"
+  },
+  "parametros_fijos_TFIDF": {
+    "analyzer": "word",
+    "binary": "False",
+    "decode_error": "strict",
+    "dtype": "<class 'numpy.float32'>",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": "False",
+    "max_df": "1.0",
+    "norm": "l2",
+    "preprocessor": "None",
+    "smooth_idf": "True",
+    "stop_words": "None",
+    "strip_accents": "None",
+    "sublinear_tf": "True",
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "tokenizer": "None",
+    "use_idf": "True",
+    "vocabulary": "None"
+  },
+  "parametros_fijos_NB": {
+    "class_prior": "None",
+    "fit_prior": "True",
+    "force_alpha": "True"
+  },
+  "pruebas_finales_usadas_para_ajustar": false
+}

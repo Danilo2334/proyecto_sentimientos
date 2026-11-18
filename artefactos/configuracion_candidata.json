@@ -1,0 +1,18 @@
+{
+  "variante": "combinacion_34",
+  "max_features": 80000,
+  "caracteristicas_reales": 80000,
+  "min_df": 5,
+  "ngram_range": "(1, 2)",
+  "alpha": 0.5,
+  "accuracy_validacion": 0.7965333333333333,
+  "f1_macro_validacion": 0.7965317381421604,
+  "aciertos": 11948,
+  "segundos_ajuste_tfidf": 18.210887399996864,
+  "segundos_transformacion_validacion": 0.26818290000665,
+  "segundos_entrenamiento_nb": 0.058974500017939135,
+  "segundos_prediccion": 0.002756499976385385,
+  "cambio_accuracy_pp": 0.21999999999999797,
+  "cambio_f1_macro": 0.0021991735479967023,
+  "supera_V2_en_validacion": true
+}

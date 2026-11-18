@@ -1,0 +1,21 @@
+{
+  "version_recomendada": "V3",
+  "criterio": "V3 debe aumentar F1 macro sin reducir Accuracy; en otro caso conservar V2",
+  "metricas_nueva_prueba": {
+    "version": "V3",
+    "publicaciones_prueba": 30000,
+    "accuracy_prueba": 0.7937666666666666,
+    "f1_macro_prueba": 0.793761980709715,
+    "aciertos": 23813,
+    "errores": 6187,
+    "segundos_transformacion_y_prediccion": 0.6823049999948125
+  },
+  "pipeline": "modelo_recomendado.joblib",
+  "entrada": "texto_limpio",
+  "clases": {
+    "0": "Negativo",
+    "4": "Positivo"
+  },
+  "estado_candidata": "mejora_observada_en_esta_prueba",
+  "nota": "Comparacion puntual del subconjunto limpio; no demuestra superioridad universal ni significancia estadistica."
+}

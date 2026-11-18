@@ -1,0 +1,35 @@
+{
+  "estado": "completado",
+  "version_recomendada": "V3",
+  "criterio": "V3 debe aumentar F1 macro sin reducir Accuracy; en otro caso conservar V2",
+  "resultados": [
+    {
+      "version": "V2",
+      "publicaciones_prueba": 30000,
+      "accuracy_prueba": 0.7894,
+      "f1_macro_prueba": 0.7893882581613794,
+      "aciertos": 23682,
+      "errores": 6318,
+      "segundos_transformacion_y_prediccion": 0.649100599985104
+    },
+    {
+      "version": "V3",
+      "publicaciones_prueba": 30000,
+      "accuracy_prueba": 0.7937666666666666,
+      "f1_macro_prueba": 0.793761980709715,
+      "aciertos": 23813,
+      "errores": 6187,
+      "segundos_transformacion_y_prediccion": 0.6823049999948125
+    }
+  ],
+  "balance": {
+    "errores_V2_corregidos_por_V3": 874,
+    "nuevos_errores_V3": 743,
+    "ambas_aciertan": 22939,
+    "ambas_fallan": 5444,
+    "aciertos_netos_adicionales_V3": 131,
+    "cambio_accuracy_pp_V3_menos_V2": 0.436666666666663,
+    "cambio_f1_macro_V3_menos_V2": 0.004373722548335679
+  },
+  "modelos_originales_modificados": false
+}

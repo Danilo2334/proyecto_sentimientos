@@ -1,0 +1,3 @@
+﻿version,publicaciones_prueba,accuracy_prueba,f1_macro_prueba,aciertos,errores,segundos_transformacion_y_prediccion
+V2,30000,0.7894,0.7893882581613794,23682,6318,0.649100599985104
+V3,30000,0.7937666666666666,0.793761980709715,23813,6187,0.6823049999948125

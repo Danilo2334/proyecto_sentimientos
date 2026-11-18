@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.streamlit/secrets.toml
+data/
+salidas/
+salidas_v2/
+salidas_v3/
+evidencias_app/*.log
