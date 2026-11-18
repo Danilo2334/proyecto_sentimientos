@@ -1,4 +1,4 @@
-﻿# Sentiment140 · aplicación Streamlit
+# Sentiment140 · aplicación Streamlit
 
 Aplicación local de inferencia con V3. No entrena modelos ni modifica las evidencias de V1, V2 o V3. Publicación en Community Cloud pendiente.
 
@@ -41,7 +41,7 @@ Se verifican todos los hashes al cargar el modelo. Nunca se cargan joblib sumini
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-Detalle de cobertura y limitaciones en `evidencias_app/VERIFICACION.md`.
+Las pruebas y notas de verificaci?n se conservan en el proyecto local; no forman parte del paquete m?nimo publicado en GitHub.
 
 ## Publicación desde GitHub (pendiente)
 
