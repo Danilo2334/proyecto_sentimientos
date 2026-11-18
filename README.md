@@ -1,6 +1,6 @@
 # Sentiment140 · aplicación Streamlit
 
-Aplicación local de inferencia con V3. No entrena modelos ni modifica las evidencias de V1, V2 o V3. Publicación en Community Cloud pendiente.
+Aplicacion publicada: https://qcrae3pllcikbqgqevvmah.streamlit.app/ . Verificada con Python 3.12.16, prediccion positiva, metricas reales y acceso en incognito sin sesion. Los modelos y evidencias originales se conservan.
 
 ## Instalación y ejecución
 
